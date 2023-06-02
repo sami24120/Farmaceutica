@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/login.css">
+    <script src="JS/Login.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+    <form>
+        <h2>Login</h2>
+        <div class="input-field">
+            <label for="email">Email:</label>
+            <input class="email" type="email" name="mail" id="mail" placeholder="Introduzca su email" required>
+        </div>
+
+        <div class="input-field">
+            <label for="password">Contrasenya:</label>
+            <input class="password" type="password" name="pass" id="pass" placeholder="Introduzca su contraseña" required>
+        </div>
+
+        <div class="button">
+            <input type="submit" value="Send" id="submit" onclick="enviar()">
+        </div>
+        <div id="resultat"></div>
+    </form>
+</div>
+</body>
+</html>
